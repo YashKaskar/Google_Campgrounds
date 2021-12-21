@@ -115,7 +115,7 @@ app.use(
                 "'self'",
                 "blob:",
                 "data:",
-                "https://res.cloudinary.com/douqbebwk/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
+                "https://res.cloudinary.com/dmeongp8y/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
                 "https://images.unsplash.com/",
             ],
             fontSrc: ["'self'", ...fontSrcUrls],
@@ -163,4 +163,5 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Serving on port ${port}`)
 })
+
 
